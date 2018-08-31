@@ -1,0 +1,11 @@
+framework module GYSDK {
+  umbrella header "GYSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module GYSDK.Swift {
+    header "GYSDK-Swift.h"
+    requires objc
+}
