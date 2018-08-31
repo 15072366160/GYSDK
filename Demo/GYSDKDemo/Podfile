@@ -1,0 +1,19 @@
+workspace 'GYSDKDemo.xcworkspace'
+
+target 'GYSDKDemo' do
+project 'GYSDKDemo/GYSDKDemo.xcodeproj'
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'IQKeyboardManagerSwift', '~> 6.1.1'
+
+end
+
+target 'GYSDK' do
+project 'GYSDK/GYSDK.xcodeproj'
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'IQKeyboardManagerSwift', '~> 6.1.1'
+
+end
